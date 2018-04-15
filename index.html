@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <style>
+      html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1{
+        font-family: "Helvetica", Times, serif;
+        font-size: 4.2vh;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
      .Aligner {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 100%;
+        width: 100%;
       }
 
       .Aligner-item {
         max-width: 50%;
       }
-
-      .Aligner-item--top {
-        align-self: flex-start;
-      }
-
-      .Aligner-item--bottom {
-        align-self: flex-end;
-      }
     </style>
   </head>
+
+
   <body>
     <div class="Aligner">
-      <div class="Aligner-item Aligner-item--top">…</div>
-     <div class="Aligner-item">…</div>
-     <div class="Aligner-item Aligner-item--bottom">…</div>
+     <div class="Aligner-item">
+       <img src="https://avatars2.githubusercontent.com/u/38040384?s=400&u=721b2fa731cad42ab1fe7f85596c0d1b6ee694f8&v=4"/>
+       <h1>SheepScanner</h1>
+     </div>
    </div>
   </body>
+
 </html>
