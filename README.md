@@ -1,5 +1,5 @@
 # SheepScanner.github.io
-Website of the project.
+Website of the [project](https://github.com/flosommerfeld/SheepScanner).
 
 
 ## License
